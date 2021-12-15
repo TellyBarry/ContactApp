@@ -1,0 +1,22 @@
+input{
+    background-color: #20242f;
+    color: #f8f8eb;
+}
+
+.card {
+    border: solid white 1px;
+    border-radius: 30px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:50px;
+}

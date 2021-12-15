@@ -1,0 +1,21 @@
+<div class="card">
+    <h3>Carte d'affichage d'un profil</h3>
+    <div class="row">
+        Nom :
+    </div>
+    <div class="row">
+        <p>{{contact.nom}}</p>
+    </div>
+    <div class="row">
+        Pseudo :
+    </div>
+    <div class="row">
+        <input (keyup)="onModif($event, contact)" type="text" value="{{contact.pseudo}}" *ngIf="contact.pseudo"/>
+    </div>
+    <div class="row">
+        Email :
+    </div>
+    <div class="row">
+        <p>{{contact.email}}</p>
+    </div>
+</div>

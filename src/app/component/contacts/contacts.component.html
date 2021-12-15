@@ -1,0 +1,15 @@
+<div *ngFor="let contact of contacts" (click)="onAffiche(contact)" class="card">
+    <div class="row">
+        nom:
+        {{ contact.nom }}
+    </div>
+    <div class="row">
+        pseudo:
+        {{ contact.pseudo }}
+    </div>
+    <div class="row">
+        email:
+        {{ contact.email }}
+    </div>
+    <button (click)="onDelete(contact)">X</button>
+</div>
